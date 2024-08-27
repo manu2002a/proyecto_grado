@@ -1,0 +1,110 @@
+body{
+    margin: 0%;/*Sirve para establecen el margen del body al 0% en todas las direcciones, es decir, se pega arriba*/
+}
+
+div.cabecera{
+    display: flex;/*Sirve para crear un contenedor flexible que organiza automáticamente los elementos hijos en un diseño flexible y responsivo */
+    text-align: center; /*Sirve para centrar el contenido del contenedor*/
+    background-color: #211c16;/*Sirve para establecer un color al fondo de una pagina*/
+    justify-content: center;/*Sirve para centrar el contenido de un contenedor flexible*/
+}
+
+div.enlaces{
+    display: flex;
+    text-align: center;
+    background-color: #fcea74;
+    height: 130px;/*Sirve para establecer la altura de un elemento en una pagina web*/
+    justify-content: center;
+}
+
+div.descripcion{
+    display: flex;
+    text-align: center;
+    background-color: #ff7c26;
+    justify-content: center;
+    flex-direction: column;/*Sirve para organizar los elementos flexibles en una columna en vez de en una fila*/
+    height: 210px;
+}
+
+
+div.pie{
+    background-color: #fcea74;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+div.imagenes{
+    display: flex;
+    text-align: right;
+    background-color: #fcea74;
+    justify-content: flex-end;/*Sirve para posicionar los elementos flexibles al final del contenedor*/
+    margin-bottom: 0%;
+}
+
+.tamaño{
+    width: 60px;/*Sirve para establecer el ancho de un elemento en una pagina web*/
+    height: 60px;
+}
+
+div#contenedor{
+    display: grid;/*Sirve para crear rejillas para posicionar los elementos*/
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;/*Sirve para el ancho de las columnas en un contenedor de cuadrícula.*/
+    text-align: center;
+}
+
+div#uno{
+    background-color: #ff7c26;
+}
+
+div#dos{
+    background-color: #fcea74;
+}
+
+div#tres{
+    background-color: #ff7c26;
+}
+
+div#cuatro{
+    background-color: #fcea74;
+}
+
+div#cinco{
+    background-color: #ff7c26;
+}
+
+div#seis{
+    background-color: #fcea74;
+}
+
+div#siete{
+    background-color: #ff7c26;
+}
+
+div#ocho{
+    background-color: #fcea74;
+}
+
+div#nueve{
+    background-color: #ff7c26;
+}
+
+div#diez{
+    background-color: #fcea74;
+}
+
+div#formulario{
+    background-color: #ff7c26;
+    display: flex;
+    justify-content: center;
+}
+
+div#pie_formulario{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;/*Sirve por ejemplo para quitarle el subrayado a los enlaces*/
+}
